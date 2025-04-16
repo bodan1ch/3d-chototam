@@ -1,0 +1,88 @@
+*{
+    font-family:Arial;
+}
+body{
+    background-image: url(/img/1680362000_zefirka-club-p-chernie-oboi-na-telefon-dlya-malchikov-73.jpg);
+}
+.Theme{
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(rgb(0, 0, 0), rgb(59, 2, 109));
+    color: white;
+}
+
+h2{
+    font-family:Arial;
+    color: white    ;
+    text-align: center;
+    
+}
+
+.container{
+    color: white;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9, .card-10, .card-11, .card-12, .card-13 {
+    background: linear-gradient(rgb(59, 2, 109), rgb(0, 0, 0));
+    color: white;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 15px;
+    transition-duration: 0.3s;
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover, .card-6:hover, .card-7:hover, .card-8:hover,
+.card-9:hover, .card-10:hover, .card-11:hover, .card-12:hover, .card-13:hover {
+    transform: scale(1.01);
+}
+
+
+
+.pgallery{
+    color:white !important;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(39, 3, 71), rgb(0,0,0));
+    border-radius: 25px;
+  }
+  
+  
+  
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .image {
+    margin-top: 20px;
+    margin-left: 200px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 12px;
+  }
+  
+.footer{
+    background: linear-gradient(gray, rgb(83, 81, 81));
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+  
